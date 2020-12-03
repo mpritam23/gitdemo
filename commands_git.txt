@@ -1,8 +1,9 @@
 1. git init--to initialize the repository locally(which is the local repository)
 2. git add---updates the index using the current content found in the working tree and then prepares the content in the staging area for the next commit.
-   git add <filename>/git add <directory>/git add -A
+   git add <filename>/git add <directory>-- add specific file,directory into staging area..
+	git add -A  --add all files and directories from working directory to staging area
 3. git rm --cached <filename>--- to unstage from staging area
-3. git commit -m "initial commit"
+3. git commit -m "initial commit" -- (m)-> message-- this will commit changes into local repository
 4. git ls-files
 5. git status--tells the status of your info in repository
 6. git remote -v,git remote add origin https://github.com/mpritam23/MavenHelloWorldProject
