@@ -6,8 +6,20 @@
 3. git commit -m "initial commit" -- (m)-> message-- this will commit changes into local repository
 4. git ls-files
 5. git status--tells the status of your info in repository
-6. git remote -v,git remote add origin https://github.com/mpritam23/MavenHelloWorldProject
-7. git push -u origin master
+6. git remote -v-- for checking the added origins
+	git remote add origin https://github.com/mpritam23/MavenHelloWorldProject  --- add remote repo in our current working dir
+7. git push -u origin master -- this will push all our committed data on the local repo to remote repo
+8. git remote rm origin-- for removing origin
+9. git reset/ git reset [commit] -- unstages the file but preserves the file content.
+   git reset --hard [commit] -- removes the modified file and replaces with original content
+10 git diff --staged -- shows the diff of the files in the staging area and the latest version present in the working dir
+	git diff-- shows the file differences which are not yet staged
+11. git config --global user.name "mpritam23"
+12 git log -- gives committed log-- lists the version history of the current branch
+13 git clone <github url> -- to obtain a repo from the existing url
+
+
+
 8. cd Maven*
 9. mvn compile,mvn test
 
